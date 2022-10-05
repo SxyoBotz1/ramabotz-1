@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
   })
 	]
 	await delay(100)
-  return conn.sendMessage(m.chat, { text: `Hello @${m.sender.split('@')[0]}, That's My Owner Don't Spam Okay? 😃`, mentions: [m.sender] }, { quoted: conn.p[id][0]
+  return conn.sendMessage(m.chat, { text: `Hay @${m.sender.split('@')[0]}, Tu Nomer Buaya kak hati² :v`, mentions: [m.sender] }, { quoted: conn.p[id][0]
   })
   await delay(100)
   return delete conn.p[id]
