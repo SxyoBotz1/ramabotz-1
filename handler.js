@@ -698,10 +698,10 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ok', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://instagram.com/Xiao_yan_21",
+    mediaUrl: "https://instagram.com/ahmdzakaria47",
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Elaina-MultiDevice',
+    description: "https://youtu.be/-TleC1rbDT8", 
+    title: '𝙎𝙓𝙔𝙊𝘽𝙊𝙏𝙕-𝙈𝘿',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sig
