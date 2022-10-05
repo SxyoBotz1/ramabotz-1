@@ -313,8 +313,8 @@ let tek = `✧────···[ Dashboard ]···────✧
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
+│ ▸ *ᴀᴜᴛʜᴏʀ :* bochilgaming
+┴ ▸ *ᴏᴡɴᴇʀ :* Mass Aji
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
@@ -519,7 +519,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*Tunggu bntr syng. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
@@ -611,9 +611,9 @@ const listMessage = {
         
         //MAIN MENU
       /*conn.sendButton(m.chat, `*${ucapan()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'speedtest'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://Instagram.com/ahmdzakaria47",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
+    description: "https://Instagram.com/ahmdzakaria47", 
     title: wm,
     body: 'List Menu?',
     thumbnail: thumb,
