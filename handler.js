@@ -311,14 +311,14 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: true,
+                    welcome: false,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     antiToxic: true,
                     simi: false,
@@ -343,7 +343,7 @@ export async function handler(chatUpdate) {
                 autorestart: false,
                 anticall: true,
                 restartDB: 0,
-                restrict: false
+                restrict: true
             }
         } catch (e) {
             console.error(e)
